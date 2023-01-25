@@ -4,10 +4,11 @@ const ButtonSwitch = document.getElementById("switch");
 
 ButtonSwitch.addEventListener("click", function () {
   page.classList.toggle("light");
+  if (page.classList.contains("light")) {
+    img.setAttribute("src", "./assets/perfil-darck.jpg")
+  } else {
+    img.setAttribute("src", "https://github.com/rosendo2015.png")
+}
 });
 
-if (page.classList.contains("")) {
-  img.setAttribute("src", "./assets/img-perfil-darck.jpg")
-} else {
-  img.setAttribute("src", "./assets/img-perfil-light.jpg")
-}
+
