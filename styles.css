@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url(./assets/Mobile-escuro.png);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 100%;
+  color: #fff;
+}
+
+#app {
+  width: 450px;
+  margin: 0 auto;
+ 
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  margin: 56px  0 8px;
+}
+header img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  margin: 8px;  
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+main .wrapper-buttons {
+  padding: 24px;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main button {
+  max-width: 312px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+main button:hover{
+  border: 1.5px solid #fff;
+}
+.social{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  cursor: pointer;
+}
+.social img{
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+.social img:hover{
+
+  background: rgba(255, 255, 255, 0.2);
+
+}
+footer{
+  padding: 24px;
+  
+}
