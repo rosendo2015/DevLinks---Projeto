@@ -27,16 +27,17 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Inter", sans-serif;
   background: var(--bg-url) no-repeat top center/cover;
 
   text-align: center;
   font-size: 1.6rem;
-  width: 100%;
+ 
 }
 #app {
-  
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
 }
 header {
@@ -79,9 +80,9 @@ main {
   right: 0;
   left: initial;
 }
-#switch button:hover{
+/* #switch button:hover{
 
-}
+} */
 #switch span{
   display: block;
 width: 64px;
@@ -158,9 +159,17 @@ footer {
   padding: 24px;
 }
 footer a {
- 
+
  font-weight: 400;
 font-size: 14px;
 line-height: 24px;
  color: var(--text-color);
+}
+@media(min-width: 700px){
+:root{
+  --bg-url: url(./assets/desktop-theme-dark.jpg);
+}
+.light{
+  --bg-url: url(./assets/desktop-theme-ligth.jpg);
+}
 }
