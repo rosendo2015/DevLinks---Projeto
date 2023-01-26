@@ -16,7 +16,9 @@
 
 ## :nut_and_bolt: Principais pontos abordados
 ### HTML
+- Tags semânticas
 ### CSS
+- Mobile first
 - display flex
 - Centralizar os elementos HTML usando FLEXBOX
 
@@ -28,7 +30,7 @@
 - Classes e muito mais.
 - Funções em Javascript
 - Clean Code
-- Muita refatoração
+- Refatoração
 
 ## :dart:  Desafio
 
